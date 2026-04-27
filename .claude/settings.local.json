@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\mvc5example-master\\\\.claude\\\\skills\\\\http-client-interaction-analyzer\\\\Scripts\\\\DocumentHttpClientMentions.ps1\")",
+      "Skill(http-client-interaction-analyzer)"
+    ]
+  }
+}
