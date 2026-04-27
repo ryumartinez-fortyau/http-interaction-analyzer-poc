@@ -1,6 +1,7 @@
 # Resolve paths dynamically based on the script's location (.claude/skills/http-interaction-analyzer/Scripts)
-$targetDirectory = [System.IO.Path]::GetFullPath("$PSScriptRoot\..\..\..\..")
-$exportFilePath = [System.IO.Path]::GetFullPath("$PSScriptRoot\..\Documentation\HttpClientMentions.md")
+# Changed backslashes (\) to forward slashes (/) for cross-platform compatibility
+$targetDirectory = [System.IO.Path]::GetFullPath("$PSScriptRoot/../../../../")
+$exportFilePath = [System.IO.Path]::GetFullPath("$PSScriptRoot/../Documentation/HttpClientMentions.md")
 
 $searchTerm = "HttpClient"
 
